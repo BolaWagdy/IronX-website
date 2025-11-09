@@ -4,7 +4,6 @@
 
 @media (max-width: 992px) {
 
-
     .hero_area {
         height: auto;
     }
@@ -31,8 +30,6 @@
 }
 
 @media (max-width: 768px) {
-
-
     .slider_section .detail-box {
         text-align: center;
     }
@@ -71,7 +68,18 @@
     }
 
     .result_section .detail-box {
-        padding: 45px 0 90px 0;
+        padding: 45px 15px 90px 15px;
+        text-align: center;
+    }
+
+    .result_section .detail-box h2::before {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .result_section .detail-box a {
+        margin: 25px auto 0 auto;
     }
 
     .contact_section .heading_container {
@@ -80,10 +88,36 @@
 
     .contact_form-container {
         margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .contact_form-container button {
+        margin: 0 auto;
+        display: block;
     }
 
     .contact_section input {
         width: 100%;
+    }
+
+    .pricing-card {
+        text-align: center;
+    }
+
+    .pricing-card .pricing-title,
+    .pricing-card .price-sec,
+    .pricing-card .info,
+    .pricing-card .details {
+        text-align: center;
+    }
+
+    .pricing-card .details div {
+        justify-content: center;
+    }
+
+    .pricing-card button {
+        margin: 15px auto 0 auto;
+        display: block;
     }
 
     .info_section .row>div {
@@ -128,8 +162,6 @@
         width: 100%;
         margin-bottom: 10px;
     }
-
-
 }
 
 @media (max-width: 360px) {}
@@ -138,5 +170,4 @@
     .container {
         max-width: 1170px;
     }
-
 }
