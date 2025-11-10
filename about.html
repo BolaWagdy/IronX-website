@@ -26,6 +26,9 @@
 
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- wow js main css file -->
+  <link rel="stylesheet" href="css/animate.css">
   
 </head>
 
@@ -104,8 +107,8 @@
 
   <!-- about section -->
   <section class="about_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
+    <div class="container wow fadeIn">
+      <div class="heading_container wow fadeIn">
         <h2>
           About
         </h2>
@@ -248,6 +251,10 @@
         .querySelector(".custom_menu-btn")
         .classList.toggle("menu_btn-style");
     }
+  </script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
   </script>
 
 </body>
