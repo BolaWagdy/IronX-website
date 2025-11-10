@@ -25,6 +25,9 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
   
+  <!-- wow js main css file -->
+  <link rel="stylesheet" href="css/animate.css">
+  
 </head>
 
 <body>
@@ -107,7 +110,7 @@
             <div class="carousel-item active">
               <div class="container">
                 <div class="row">
-                  <div class="col-lg-6 col-md-7 offset-md-6 offset-md-5">
+                  <div class="col-lg-6 col-md-7 offset-md-6 offset-md-5 wow fadeInDown">
                     <div class="detail-box">
                       <h2>
                         Get Your Body
@@ -194,8 +197,8 @@
 
   <!-- about section -->
   <section class="about_section layout_padding" id="about_section">
-    <div class="container">
-      <div class="heading_container">
+    <div class="container wow fadeIn">
+      <div class="heading_container wow fadeIn">
         <h2>
           About
         </h2>
@@ -219,7 +222,7 @@
 
   <!-- service section -->
   <section class="service_section layout_padding">
-    <div class="container">
+    <div class="container wow fadeIn" >
       <div class="heading_container">
         <h2>
           Our Services
@@ -290,13 +293,13 @@
   <!-- contact section -->
   <section class="us_section layout_padding">
     <div class="container">
-      <div class="heading_container">
+      <div class="heading_container wow fadeIn">
         <h2>
           Why Choose Us
         </h2>
       </div>
       <div class="us_container">
-        <div class="box">
+        <div class="box wow fadeInLeft">
           <div class="img-box">
             <img src="images/u-1.png" alt="">
           </div>
@@ -309,7 +312,7 @@
             </p>
           </div>
         </div>
-        <div class="box">
+        <div class="box wow fadeInDown">
           <div class="img-box">
             <img src="images/u-2.png" alt="">
           </div>
@@ -322,9 +325,7 @@
             </p>
           </div>
         </div>
-        <div class="box">
-        </div>
-        <div class="box">
+        <div class="box wow fadeInRight">
           <div class="img-box">
             <img src="images/u-4.png" alt="">
           </div>
@@ -344,7 +345,7 @@
 
   <!-- client section -->
   <section class="client_section layout_padding">
-    <div class="container">
+    <div class="container wow fadeInDown">
       <div class="heading_container">
         <h2>
           What Says Our Customers
@@ -417,7 +418,7 @@
             <img src="images/result-img.jpg" alt="">
           </div>
         </div>
-        <div class="col-lg-4 col-md-5">
+        <div class="col-lg-4 col-md-5 wow fadeInLeft">
           <div class="detail-box">
             <h2>
               BUILT TO BRING <br>
@@ -442,14 +443,14 @@
   <!-- pricing section -->
   <section class="pricing" id="pricing">
     <div class="container">
-      <div class="heading_container">
+      <div class="heading_container wow fadeIn">
         <h2>
           Pricing Plans
         </h2>
       </div>
       <div class="row g-4 justify-content-center">
         <!-- Starter Fit Plan -->
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4 wow fadeInLeft">
           <div class="pricing-card">
             <div class="pricing-title">Starter Fit</div>
             <div class="price-sec">
@@ -468,7 +469,7 @@
           </div>
         </div>
         <!-- Pro Athlete Plan -->
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4 wow fadeInDown">
           <div class="pricing-card">
             <div class="pricing-title">Pro Athlete</div>
             <div class="price-sec">
@@ -487,7 +488,7 @@
           </div>
         </div>
         <!-- Elite Champion Plan -->
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4 wow fadeInRight">
           <div class="pricing-card">
             <div class="pricing-title">Elite Champion</div>
             <div class="price-sec">
@@ -512,7 +513,7 @@
 
   <!-- contact section -->
   <section class="contact_section layout_padding">
-    <div class="container">
+    <div class="container wow fadeIn">
       <div class="heading_container">
         <h2>
           <span>
@@ -567,7 +568,7 @@
       <div class="row">
         <div class="col-md-3">
           <h6>
-            About
+            About IronX
           </h6>
           <p>
             IronX is dedicated to helping you reach your fitness goals through professional coaching, quality equipment, and a supportive community. Train with passion, stay motivated, and transform your lifestyle.
@@ -697,6 +698,10 @@
       }
     });
   });
+  </script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
   </script>
 
 </body>
