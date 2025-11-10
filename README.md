@@ -1,3 +1,4 @@
+
 # IronX - Gym & Fitness Website
 
 A modern, responsive website for IronX gym and fitness center. This project features a clean design with smooth animations, interactive elements, and a fully responsive layout that works seamlessly on desktop, tablet, and mobile devices.
@@ -45,6 +46,7 @@ energym-master/
 - **Modern UI/UX**: Clean and professional design
 - **Responsive Design**: Fully responsive layout for all screen sizes
 - **Smooth Animations**: Hover effects and transitions on buttons and cards
+- **Scroll Animations**: WOW.js integration for animate-on-scroll effects
 - **Interactive Elements**: Hover effects on service cards, buttons, and navigation
 
 ### 🎯 Key Sections
@@ -61,6 +63,7 @@ energym-master/
 - **CSS3**: Custom styling with animations and transitions
 - **Bootstrap 5**: Responsive grid system and components
 - **JavaScript/jQuery**: Interactive functionality
+- **WOW.js**: Animate on scroll library for scroll-triggered animations
 - **Google Fonts**: Poppins, Dosis, Baloo Chettan fonts
 - **Owl Carousel**: Slider functionality (CDN)
 
@@ -137,6 +140,9 @@ Edit `css/style.css` and search for color values:
 ### Local Files
 - Bootstrap CSS: `css/bootstrap.css`
 - Bootstrap JS: `js/bootstrap.js`
+- jQuery: `js/jquery-3.7.1.min.js`
+- WOW.js: `js/wow.min.js` (Animate on scroll library)
+- Animate.css: `css/animate.css` (Animation styles for WOW.js)
 - Custom CSS: `css/style.css`
 - Responsive CSS: `css/responsive.css`
 
@@ -187,9 +193,12 @@ All buttons follow a consistent design:
 - Ensure jQuery is loaded before Bootstrap
 - Check browser console for errors
 - Verify all JS files are in the `js/` folder
+- For WOW.js animations: Ensure `wow.min.js` and `animate.css` are loaded, and initialize with `new WOW().init()`
 
 ## 📚 Additional Resources
 
 - [Bootstrap Documentation](https://getbootstrap.com/docs/)
 - [jQuery Documentation](https://api.jquery.com/)
+- [WOW.js Documentation](https://wowjs.uk/)
+- [Animate.css Documentation](https://animate.style/)
 - [Google Fonts](https://fonts.google.com/)
