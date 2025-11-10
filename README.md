@@ -20,12 +20,14 @@ energym-master/
 │   ├── bootstrap.css   # Bootstrap framework styles
 │   ├── style.css       # Main custom stylesheet (optimized)
 │   ├── responsive.css  # Responsive design styles for mobile devices
-│   └── style.css.map   # Source map for style.css
+│   ├── style.css.map   # Source map for style.css
+│   └── animate.css     # WowJs css file
 │
 ├── js/
-│   ├── bootstrap.js    # Bootstrap JavaScript framework
-│   └── jquery-3.7.1.min.js  # jQuery library
-│
+│   ├── bootstrap.js         # Bootstrap JavaScript framework
+│   ├── jquery-3.7.1.min.js  # jQuery library
+│   └── wow.min.js           # WowJs js file
+│   
 └── images/             # All website images and assets
     ├── logo.png
     ├── slider-bg.jpg
