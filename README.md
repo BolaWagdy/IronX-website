@@ -3,8 +3,6 @@
 
 ![IronX Website Screenshot](images/website-screenshot.png)
 
-A modern, responsive website for IronX gym and fitness center. This project features a clean design with smooth animations, interactive elements, and a fully responsive layout that works seamlessly on desktop, tablet, and mobile devices.
-
 ## 🏋️ Project Overview
 
 IronX is a professional gym website showcasing fitness services, pricing plans, testimonials, and contact information. The website is built with HTML5, CSS3, Bootstrap, and JavaScript, providing an excellent user experience across all devices.
@@ -12,7 +10,7 @@ IronX is a professional gym website showcasing fitness services, pricing plans, 
 ## 📁 Project Structure
 
 ```
-energym-master/
+IronX/
 │
 ├── index.html          # Home page 
 ├── about.html          # About page
@@ -24,7 +22,7 @@ energym-master/
 │   ├── style.css       # Main custom stylesheet (optimized)
 │   ├── responsive.css  # Responsive design styles for mobile devices
 │   ├── style.css.map   # Source map for style.css
-│   └── animate.css     # WowJs css file
+│   └── animate.css     # Animation styles css file for WOW.js
 │
 ├── js/
 │   ├── bootstrap.js         # Bootstrap JavaScript framework
@@ -172,14 +170,6 @@ All buttons follow a consistent design:
 - Touch-friendly buttons and links
 - Mobile-specific spacing and padding
 
-## 🔄 Recent Updates
-
-- Optimized CSS by removing unused styles
-- Added smooth hover transitions to all buttons
-- Centered pricing card text on all devices
-- Improved mobile responsiveness
-- Enhanced service card hover effects
-
 ## 🐛 Troubleshooting
 
 ### Images not loading
@@ -199,8 +189,8 @@ All buttons follow a consistent design:
 
 ## 📚 Additional Resources
 
+- [Google Fonts](https://fonts.google.com/)
 - [Bootstrap Documentation](https://getbootstrap.com/docs/)
 - [jQuery Documentation](https://api.jquery.com/)
 - [WOW.js Documentation](https://wowjs.uk/)
 - [Animate.css Documentation](https://animate.style/)
-- [Google Fonts](https://fonts.google.com/)
