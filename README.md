@@ -1,7 +1,7 @@
 
 # IronX - Gym & Fitness Website
 
-![IronX Website Screenshot](images/website-screenshot.png)
+![IronX Website Screenshot](images/website.png)
 
 - **[Live Preview](https://bolawagdy.github.io/IronX-website/)**
 <br>Experience IronX in action.
