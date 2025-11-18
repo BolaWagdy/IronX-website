@@ -3,7 +3,7 @@
 
 ![IronX Website Screenshot](images/website-screenshot.png)
 
-- **[Live Preview](https://bolawagdy.github.io/IronX-website/)**
+- **[Website Live Preview](https://bolawagdy.github.io/IronX-website/)**
 <br>Experience IronX in action.
 
 ## 🏋️ Project Overview
