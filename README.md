@@ -6,9 +6,6 @@
 - **[Live Preview](https://bolawagdy.github.io/IronX-website/)**
 <br>Experience IronX in action.
 
-- **[Live Preview](https://bolawagdy.github.io/IronX-website/)**
-<br>Experience IronX in action.
-
 ## 🏋️ Project Overview
 
 IronX is a professional gym website showcasing fitness services, pricing plans, testimonials, and contact information. The website is built with HTML5, CSS3, Bootstrap, and JavaScript, providing an excellent user experience across all devices.
